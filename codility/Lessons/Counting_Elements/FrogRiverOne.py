@@ -1,3 +1,5 @@
+# Easy
+
 def solution(X, A):
     leaf = []
     for idx, item in enumerate(A):
