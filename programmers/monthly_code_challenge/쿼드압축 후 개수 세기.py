@@ -8,9 +8,6 @@ def solution(arr):
 
     s = len(arr)
 
-    split = []
-    split.append([(0, 0), s])
-
     queue = deque([[(0, 0), s]])
 
     while queue:
