@@ -16,19 +16,15 @@ bool BFS(int v, vector<vector<int>> (&A), vector<int> (&visited)){
         int now = myQue.front();
         myQue.pop();
         color = visited[now] * -1;
-        cout << "현재 노드 / 현재 색 / 다음 색: " << now << visited[now] << color << endl;
 
         for (int next : A[now]){
             if (visited[next] == 0){
                 myQue.push(next);
                 visited[next] = color;
             }
-            else if (visited[next] == visited[now]){
-                cout << next << " " << now << endl;
-                cout << visited[next] << endl;
+            else if (visited[next] == visited[now])
                 return false;
-            }
-                
+            
         }
     }
 
