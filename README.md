@@ -6,8 +6,8 @@
 ![C++](https://img.shields.io/badge/cplusplus-00599C.svg?&style=for-the-badge&logo=cplusplus&logoColor=white)
 
 * [BOJ_C++][BOJ_Repo_Link] : BOJ 문제 풀이 코드 (스터디)
-* [BOJ_Python][BOJ_Repo_Link2] : BOJ 문제 풀이 코드
-* [Codility][Codility_Repo_Link] : Cordiality 문제 풀이 코드
+* [BOJ_Python/C++][BOJ_Repo_Link2] : BOJ 문제 풀이 코드
+* [Codility][Codility_Repo_Link] : Codility 문제 풀이 코드
 * [Programmers][Programmers_Repo_Link] : Programmers 문제 풀이 코드
 
 [BOJ_Repo_Link]: https://github.com/yedajeong/algorithm_study
