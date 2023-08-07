@@ -63,6 +63,7 @@ int main(){
             e = edge.first.second;
             w = edge.second + money[e];
             if (D[s] > INT_MIN and D[s] + w > D[e]){
+                // 양수 사이클에서 end까지 갈 수 있으면 Gee
                 if (dfs(s)){
                     cout << "Gee\n";
                     return 0;
